@@ -167,6 +167,10 @@ section.header-area {
   transition: 0.5s;
 }
 
+.blog-inner-content-tab>ul>li:last-child a {
+  margin-bottom: 0px;
+}
+
 .blog-inner-content-tab>ul>li:hover a {
   background: #DD0000;
   color: #fff;
@@ -294,5 +298,48 @@ footer.footer-area {
   color: #ffff;
   display: block;
   padding: 0px 15px;
+  font-size: 20px;
+}
+
+
+/**************************************/
+/************ other page Css*************/
+/************************************/
+
+.blog-right.other-page .blog-single-item {
+  padding: 52px 30px;
+  border: 1px solid #ddd;
+}
+
+.m-vs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-vs>img {
+  width: 90px;
+  height: auto;
+}
+
+.blog-inner-content>p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+.blog-right.other-page .blog-inner-content {
+  border: none;
+  border-radius: inherit;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.blog-right.other-page .blog-inner-content>span {
+  padding-bottom: 5px;
   font-size: 20px;
 }
